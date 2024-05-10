@@ -1,4 +1,4 @@
-﻿@using AddingBlazorToMVC.MVC.Components
+﻿@using AddingBlazorToMVC.Client.Components
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -8,4 +8,4 @@
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-<component type="typeof(EmbeddedCounter)" render-mode="ServerPrerendered" />
+<component type="typeof(EmbeddedCounter)" render-mode="WebAssemblyPrerendered"/>
